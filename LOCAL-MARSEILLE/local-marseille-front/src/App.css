@@ -1,0 +1,963 @@
+/* ----------    RESET DEFAULT STYLE -------------------- */
+* {
+  margin: 0 auto;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+*:focus {
+  outline: 0;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+}
+body,
+input,
+button {
+  font: 14px "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* ---------------------------------------- */
+
+/* ----------   NAVBAR  -------------------- */
+/* .Nav-Bar-Menu{
+  width: 100%;
+} */
+/* .espace-producteur {
+  align-items: right;
+}
+.points-de-vente {
+  align-items: right;
+} */
+.pts-vente-producteur {
+  width: 300px;
+  align-items: end;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+.Logo-NavBar {
+  width: 70px;
+  height: 70px;
+}
+.Logo-Text {
+  display: grid;
+}
+.Farm-Text {
+  display: grid;
+  right: 15px;
+}
+.Logo-Farm {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.Logo-Stall {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.Stall-Text {
+  display: grid;
+}
+.Logo-Enter {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.Enter-Text {
+  display: grid;
+}
+.burgerButtonDiv {
+  padding: 5px;
+  margin: 5px;
+}
+/* ----------   END ~ NAVBAR  -------------- */
+/* .backgroundImage{
+  width: auto;
+  height: 200px;
+} */
+.img {
+  width: auto;
+  height: 200px;
+}
+
+/* ----------    BANDEAU IMAGE HOME PAGE  -------------------- */
+.backgroundImage {
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* ----------  END ~  BANDEAU IMAGE HOME PAGE  ---------- */
+.explicationMap {
+  display: flex;
+  padding: 5px;
+}
+.markerExplicit {
+  display: flex;
+  margin: left;
+  justify-content: space-between;
+}
+.legende-marker {
+  font-size: 18px;
+  padding: 10px;
+}
+/* ---------- GRID HOME PAGE  --------------------------- */
+.Producteurs {
+  max-width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+  margin-top: 50px;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (min-width: 600px) {
+  .Producteurs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .Producteurs {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.cardProducteur {
+  background-color: #198754;
+  color: white;
+  height: 310px;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carteProducteur {
+  border-radius: 2%;
+  padding-top: 1%;
+  border-radius: 35px;
+}
+.divText {
+  margin: 10px;
+  /* height: 50px; */
+  display: flex;
+  flex-direction: column;
+}
+.producteurName {
+  border: solid 1px rgb(182, 204, 187);
+  margin: 5px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.producteurSoustitre-grid {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #f8f9fa;
+  font-size: 18px;
+  font-weight: bold;
+}
+.imageProducteur {
+  height: 100%;
+  max-height: 200px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: transform 0.3s;
+}
+.imageProducteur-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.imageProducteur:hover {
+  transform: scale(1.3);
+}
+
+.linkProducteur {
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.linkColor {
+  color: white;
+}
+
+/* ----------   END ~ GRID HOME PAGE   -------------- */
+
+/* ----------   UPLOAD   --------------------------- */
+
+.card-shadow {
+  display: flex;
+}
+
+.uploadProdDiv {
+  margin-left: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  align-items: center;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .uploadProdDiv {
+    width: 100%;
+  }
+}
+
+.buttonUploadProd {
+  width: 160px;
+  background-color: #536c5d;
+  padding: 9px;
+  color: white;
+  border-radius: 5px;
+}
+/* ----------   END ~ UPLOAD ----------------------- */
+
+/* ----------   PROFIL FORM PAGE   -------------- */
+
+.formPage {
+  border: 1px solid #198754;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 870px) {
+  .formPage {
+    border: 1px solid #198754;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .formPage {
+    border: 1px solid #198754;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+.buttonAdd {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 1px solid #198754;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.gridMarche {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  margin-top: 0px;
+  grid-template-columns: repeat(3, 1fr);
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 520px) {
+  .gridMarche {
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 870px) {
+  .gridMarche {
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+.cardMarche {
+  width: 100%;
+  border: solid 1px #198754;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .cardMarche {
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+}
+
+.imageCardMarche {
+  height: 150px;
+  width: 150px;
+}
+
+@media (max-width: 700px) {
+  .imageCardMarche {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 520px) {
+  .imageCardMarche {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.marcheCliquezIci {
+  color: black;
+  font-size: larger;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.marcheTitreForm {
+  color: #198754;
+  font-size: larger;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.profilformTitre {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  -webkit-text-stroke: 1px grey;
+  color: white;
+  margin-top: 40px;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.formProfil {
+  margin: 50px;
+}
+
+@media (max-width: 600px) {
+  .formProfil {
+    margin: 5px;
+  }
+}
+
+.buttonRetour {
+  align-items: left;
+  margin: 0;
+  background-color: #198754;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  float: RIGHT;
+  padding: 10px;
+}
+.buttonRetour:hover {
+  color: white;
+}
+
+.inputTitre {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-left: 0px;
+  display: flow-root;
+}
+
+.inputDescription {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-left: 0px;
+}
+
+/* ----------  PAGE PRODUCTEUR  -------------------- */
+
+.Divprincipal {
+  padding: 25px;
+  display: flex;
+}
+
+@media (max-width: 780px) {
+  .Divprincipal {
+    padding: 50px;
+    padding-left: 25px;
+    display: block;
+  }
+}
+
+.DetailsProducteur {
+  text-align: center;
+  padding: 2%;
+  margin-top: auto;
+}
+.ProducteurPlaces {
+  align-items: center;
+  padding: 1ch;
+  text-align: center;
+  padding-top: 0, 5%;
+}
+.ViewProducteurDetail {
+  font-size: 200%;
+  padding: 2%;
+  text-align: center;
+}
+
+.Producteuremail {
+  font-size: 16px;
+}
+.Producteurexploitation {
+  font-size: 150%;
+  padding-left: 1%;
+  font-family: "Barlow Semi Condensed, sans-serif";
+  padding: 1%;
+}
+.ProducteureAdressExploitation {
+  font-size: 16px;
+}
+.emailLogo {
+  padding-right: 0, 3%;
+  padding-left: 0, 4%;
+  white-space: normal;
+}
+.backgroundProducteur {
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: -1;
+}
+
+.center {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+.center2 {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  text-align: center;
+  font-family: Barlow Semi Condensed, sans-serif;
+  font-style: ExtraBold;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  -webkit-text-stroke: 1.2px grey;
+  color: white;
+  text-shadow: #000000;
+  box-shadow: 55%;
+}
+.ProducteurSousTitre {
+  padding: 2%;
+  font-family: Chewy;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  color: green;
+  text-align: center;
+}
+
+.DescriptionActivité {
+  color: var(--html-text-color, #222222) !important;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: var(--html-text-font-size, 16) !important;
+  line-height: var(--html-text-line-height, 24px) !important;
+  word-break: break-word !important;
+  align-items: center;
+}
+
+.backgroundImage1 {
+  overflow: hidden;
+  object-fit: cover;
+  opacity: 0.33;
+}
+.container-Image-Map {
+  border-radius: 10px;
+}
+.MarketSpot {
+  font-family: "Barlow Semi Condensed, sans-serif";
+  font-size: 150%;
+  padding: 5%;
+  /* float: left; */
+}
+.NosProduct {
+  font-family: "Barlow Semi Condensed, sans-serif";
+  font-size: 100%;
+}
+
+.VenteProducteur {
+  text-align: center;
+  line-height: 150%;
+  width: 90%;
+  margin-bottom: 10%;
+}
+
+.pointdevente {
+  font-family: "Chewy";
+  font-style: "ExtraBold";
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  color: #198754;
+  text-align: center;
+}
+h4 {
+  text-decoration: underline;
+}
+.Info {
+  /* opacity: 35%; */
+  text-align: left;
+  padding: 5%;
+}
+.texte-details {
+  border: 1px solid black;
+  /* opacity: 15%; */
+  border-radius: 35px;
+  text-align: center;
+  color: black;
+  width: 50%;
+  padding: 3%;
+}
+.producteur-details-container-central-2 {
+  padding: 25px;
+  display: flex;
+}
+.cont-left {
+  width: 650px;
+  max-width: 700px;
+}
+/* ----------   END ~ PAGE PRODUCTEUR  -------------- */
+
+/* ----------  PAGE PROFIL  -------------- */
+.container-profil {
+  width: 80vw;
+}
+.container-central {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-milieu {
+  width: 600px;
+}
+.container-right {
+  width: 200px;
+  text-align: left;
+}
+.profil-producteur-sous_titre {
+  font-family: "Chewy";
+  font-style: "ExtraBold";
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  color: #198754;
+}
+.profil-producteur-produits {
+  font-weight: 500;
+  margin-top: 10px;
+}
+.profil-producteur-description_activite {
+  font-size: 16px;
+  padding: 5px;
+  line-height: 1.6;
+}
+.table-horaires-profil {
+  max-width: 800px;
+}
+.table-style {
+  background-color: #198754;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.table-style td,
+.table-style th {
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+}
+.table-style th {
+  font-size: 18px;
+}
+.column-horaire-marche {
+  font-size: 16px;
+}
+
+.button-dec {
+  align-items: flex-end;
+}
+.button-maj-profil-producteur {
+  margin-bottom: 10px;
+}
+.img-profil-producteur {
+  width: auto;
+  max-width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+.profil-contact {
+  padding: 10px;
+  font-size: 16px;
+}
+/* .table-style tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
+
+/* ----------   END ~ PAGE PROFIL --------------- */
+
+/* ----------  PAGE CONTACT  ------------------- */
+.imageContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* ----------   END ~ PAGE CONTACT  -------------- */
+
+/* ----------    MODAL  -------------------- */
+.modalMarcheTitre {
+  font-size: large;
+  font-weight: 900;
+  padding: 10px;
+}
+
+.selectCreneau {
+  display: flex;
+  padding: 10px;
+}
+
+@media (max-width: 700px) {
+  .selectCreneau {
+    display: block;
+    padding: 10px;
+  }
+}
+
+.buttonformCreneau {
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+
+  color: white;
+  width: 30%;
+  height: auto;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.buttonAddCreneau {
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  color: black;
+  width: 40%;
+  height: auto;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.buttonAddCreneau:hover {
+  color: #198754;
+}
+
+.containerModal {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .containerModal {
+    display: block;
+  }
+}
+
+.leftContainer {
+  width: 50%;
+}
+
+.inputsModalPointdeVente {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.allInputsForm {
+  border: solid 1px #198754;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+.buttonFormModal {
+  background-color: #536c5d;
+  color: white;
+  width: 250px;
+  padding: 2px;
+  border-radius: 5px;
+}
+.buttonFormModalDiv {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ----------   END ~ MODAL --------------- */
+
+/* ----------    FILTER MENU -------------------- */
+.menuFilterForm {
+  padding: 20px;
+  font-size: 18px;
+}
+.menuFilterTitre {
+  margin-right: 15px;
+  font-family: "Chewy";
+  font-style: "ExtraBold";
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  color: #198754;
+}
+
+.form-check input:checked {
+  background-color: #198754;
+}
+/* ----------   END ~ FILTER MENU --------------- */
+
+/* ----------    SIGNIN & SIGNUP-------------------- */
+.SigninFormCtn {
+  min-height: 68.5vh;
+
+}
+
+.SigninForm {
+  max-width: 450px;
+  padding: 20px;
+  background-color: #f1f3f5;
+  margin: 50px auto;
+}
+.BtnNavBtn {
+  display: flex;
+}
+.btnNavBtn:hover {
+  transition: all 0.2s ease-in-out;
+  background: #198754;
+  color: #808080;
+}
+
+.SignupForm {
+  max-width: 450px;
+  padding: 20px;
+  background-color: #f1f3f5;
+  margin: 25px auto;
+}
+
+/* ----------   END ~ SIGNIN & SIGNUP--------------- */
+/* ----------  LAYOUT  -------------------- */
+
+.layout {
+  background-color: black;
+}
+.salut {
+  color: black;
+}
+
+/* ---------- END ~ LAYOUT --------------- */
+
+.button-logout {
+  position: absolute;
+  right: 15px;
+}
+
+/* ----------  PAGE MARCHES  -------------------- */
+.Places {
+  max-width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+  margin-top: 50px;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (min-width: 600px) {
+  .Places {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .Places {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.cardMarches {
+  background-color: #198754;
+  color: white;
+  /* height: 310px; */
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.imageMarches {
+  height: 100%;
+  max-height: 200px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.imageMarche-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.imageMarches:hover {
+  transform: scale(1.3);
+}
+
+.marcheTitre {
+  border: solid 1px rgb(182, 204, 187);
+  margin: 5px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.marcheRecap {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #f8f9fa;
+  font-size: 16px;
+  font-weight: bold;
+}
+.creneaux-producteurs {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.horaires-marches {
+  padding: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* ---------- END ~ PAGE MARCHES --------------- */
+.mapboxgl-canvas {
+  width: 700px;
+  height: 400px;
+}
+
+/* ----------  FOOTER  -------------------- */
+.footer {
+  position: relative;
+  bottom: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* ----------  END FOOTER  -------------------- */
+/* ----------  ELSE  -------------------- */
+/* .App-header {
+    background-color: red;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  } */
+/* .primaryBtn {
+    margin: 20px 10px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 13px 25px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    border: none;
+    color: white;
+    transition: all 0.25s ease;
+    background-color: red;
+  }
+  
+  .primaryBtn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
+  } */
+
+/* 
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+  
+} */
+/* 
+.carteProducteur2{
+  background-color: red;
+
+
+} */
+/* ---------- END ~ ELSE --------------- */

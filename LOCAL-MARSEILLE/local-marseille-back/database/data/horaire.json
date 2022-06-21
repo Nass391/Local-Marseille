@@ -1,0 +1,38 @@
+[
+    {
+        "jour": "Lundi",
+        "heure_debut": "8:00",
+        "heure_fin": "13:00",
+        "frequence": "toute l'année"
+    },
+    {
+        "jour": "Mardi",
+        "heure_debut": "8:00",
+        "heure_fin": "13:00",
+        "frequence": "toute l'année"
+    },
+    {
+        "jour": "Mercredi",
+        "heure_debut": "8:00",
+        "heure_fin": "13:00",
+        "frequence": "toute l'année"
+    },
+    {
+        "jour": "Jeudi",
+        "heure_debut": "8:00",
+        "heure_fin": "13:00",
+        "frequence": "toute l'année"
+    },
+    {
+        "jour": "Vendredi",
+        "heure_debut": "8:00",
+        "heure_fin": "13:00",
+        "frequence": "toute l'année"
+    },
+    {
+        "jour": "Samedi",
+        "heure_debut": "8:00",
+        "heure_fin": "13:00",
+        "frequence": "toute l'année"
+    }
+]

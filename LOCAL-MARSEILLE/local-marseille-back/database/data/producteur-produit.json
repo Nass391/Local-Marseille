@@ -1,0 +1,7 @@
+[
+    { "producteur_id": 1, "produit_id": 1 },
+    { "producteur_id": 1, "produit_id": 2 },
+    { "producteur_id": 1, "produit_id": 3 },
+    { "producteur_id": 2, "produit_id": 1 },
+    { "producteur_id": 2, "produit_id": 4 }
+]

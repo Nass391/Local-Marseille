@@ -1,0 +1,62 @@
+[
+    {
+        "titre": "Marché Michelet",
+        "recap": "Manifestation commerciale, Marché régulier, Textile, Fleurs/Plantes, Agriculture, Produit du terroir à Marseille 8ème",
+        "sous_titre": "Vêtements, fleurs et nourriture dont une partie marché paysan vous seront proposés.",
+        "description": "Vêtements, fleurs et nourriture dont une partie marché paysan vous seront proposés. Informations pratiques : Marché alimentaire : du lundi au samedi. Marché forain et marché aux fleurs : le jeudi ",
+        "adresse": "Boulevard Michelet 13008  Marseille 8ème",
+        "longitude": "5.39857295720765",
+        "latitude": "43.2596022605685",
+        "image": "M001.jpg"
+    },
+    {
+        "titre": "Marché Belle de Mai",
+        "recap": "Manifestation commerciale, Marché régulier, Textiles, Fleurs/Plantes, Agriculture, Produit du terroir à Marseille 3ème",
+        "sous_titre": "Le marché de la Belle de Mai est un petit marché très agréable.",
+        "description": "Informations pratiques : Marché alimentaire : du lundi au samedi Marché forain : lundi, mercredi, vendredi et samedi Marché aux fleurs : le jeudi",
+        "adresse": "Place Bernard Cadenat 13003  Marseille 3ème",
+        "longitude": "5.38659361103523",
+        "latitude": "43.3118637357706",
+        "image": "M002.jpg"
+    },
+    {
+        "titre": "Marché des Producteurs de Château-Gombert",
+        "recap": "Manifestation commerciale, Marché régulier, Fleurs/Plantes, Agriculture, Produit du terroir à Marseille 13ème",
+        "sous_titre": "Le marché propose des fruits et légumes frais, bio ou issus d'agriculture raisonnée, viande, charcuterie, volaille, fromages... mais aussi, plantes et fleurs, huile d'olive, pâtisseries et confitures de fruits et fleurs.",
+        "description": "Le marché, ouvert tous les vendredis, de 15h à 19h l'hiver et 16h à 20h l'été et par tous les temps, propose des fruits et légumes frais, bio ou issus d'agriculture raisonnée, viande, charcuterie, volaille, fromages... mais aussi, plantes et fleurs, huile d'olive, pâtisseries et confitures de fruits et fleurs.",
+        "adresse": "Château-Gombert Place des Héros 13013  Marseille 13ème",
+        "longitude": "5.438776",
+        "latitude": "43.352844",
+        "image": "M003.jpg"
+    },
+    {
+        "titre": "Marché de la Rose",
+        "recap": "Manifestation commerciale, Marché régulier, Agriculture, Produit du terroir à Marseille 13ème",
+        "sous_titre": "Marché du quartier de la Rose.",
+        "description": "Marché alimentaires divers et produits manufacturés.",
+        "adresse": "Avenue François Mignet (angle avenue de la Rose) 13013  Marseille 13ème",
+        "longitude": "5.42268450052744",
+        "latitude": "43.3267256217288",
+        "image": "M004.jpg"
+    },
+    {
+        "titre": "Marché de Producteurs Locaux 'Carré Méry'",
+        "recap": "Manifestation commerciale, Marché régulier, Agriculture, Produit du terroir à Marseille 2ème",
+        "sous_titre": "Marché de producteurs locaux.",
+        "description": "Marché de producteurs locaux.",
+        "adresse": "Place du 23 janvier 1943 13002  Marseille 2ème",
+        "longitude": "5.370402657132269",
+        "latitude": "43.29780225968426",
+        "image": "M005.jpg"
+    },
+    {
+        "titre": "Marché de Monthyon",
+        "recap": "Manifestation commerciale, Marché régulier, Agriculture, Produit du terroir à Marseille 6ème",
+        "sous_titre": "La place Monthyon se situe dans 6e de Marseille au carrefour du cours Pierre-Puget et de la rue Breteuil.",
+        "description": "La place Montyon ou Monthyon se situe dans 6e de Marseille au carrefour du cours Pierre-Puget et de la rue Breteuil. Marché alimentaire : du lundi au samedi. Marché forain : lundi, mercredi et vendredi. Marché aux fleurs : le lundi ",
+        "adresse": "Place Monthyon 13006  Marseille 6ème",
+        "longitude": "5.37501403912002",
+        "latitude": "43.2906940053278",
+        "image": "M006.jpg"
+    }
+]

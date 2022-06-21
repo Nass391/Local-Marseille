@@ -1,0 +1,30 @@
+[
+    {
+        "nom": "Carvi",
+        "prenom": "Martin",
+        "email": "infomartincarvi@gmail.com",
+        "password": "password",
+        "image": ""
+    },
+    {
+        "nom": "Sadek",
+        "prenom": "Ouda",
+        "email": "ouda.sadek@epitech.eu",
+        "password": "password",
+        "image": ""
+    },
+    {
+        "nom": "Pire",
+        "prenom": "Olivier",
+        "email": "olivier.pire@epitech.eu",
+        "password": "password",
+        "image": ""
+    },
+    {
+        "nom": "Amskal",
+        "prenom": "Anas",
+        "email": "anas1.amskal@epitech.eu",
+        "password": "password",
+        "image": ""
+    }
+]
